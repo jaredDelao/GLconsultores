@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "rubik"; }
+  * .section1 {
+    width: 100%;
+    height: 100vh;
+    position: relative; }
+    * .section1 video {
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      object-fit: cover;
+      z-index: 0; }
+    * .section1 .nosotros {
+      width: 80%;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      background-color: transparent;
+      
+       }
+      * .section1 .nosotros h4 {
+        line-height: 140%;
+        font-weight: 200; }
+    * .section1 .contacto {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 1px solid white;
+      color: white;
+      padding: 10px 20px;
+      background-color: transparent;
+      cursor: pointer;
+      transition: all 1s;
+      overflow: hidden; }
+      * .section1 .contacto span {
+        font-weight: 400;
+        letter-spacing: 1.5px; }
+    * .section1 .contacto:hover {
+      color: black; }
+    * .section1 .contacto::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      position: absolute;
+      top: -100%;
+      left: 0;
+      border: 4px solid white;
+      transition: 1s all;
+      z-index: -1; }
+    * .section1 .contacto:hover::before {
+      top: 0%;
+      border: 1px solid white; }
+  * .section2 {
+    background-color: white;
+    position: relative; }
+    * .section2 .container-full {
+      padding: 5% 0%; }
+      * .section2 .container-full h4 {
+        text-align: center;
+        padding: 0 0 7% 0;
+        font-size: 2em; }
+      * .section2 .container-full .row .sol1 {
+        width: 100%;
+        height: 70vh; }
+        * .section2 .container-full .row .sol1 .sol1-info {
+          box-shadow: 5px 5px 25px gray;
+          height: 100%;
+          position: relative;
+          padding: 10% 5%;
+          z-index: 1; }
+        * .section2 .container-full .row .sol1 .sol1-img {
+          position: relative;
+          width: 50;
+          height: 100%;
+          background-image: url("../assets/img11.png");
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          box-shadow: 5px 5px 25px gray;
+          transition: all 2s; }
+      * .section2 .container-full .row .subtitulo {
+        font-size: 2.5em;
+        font-weight: 400;
+        line-height: 90%;
+        margin-bottom: 2%; }
+      * .section2 .container-full .row .divider {
+        margin-bottom: 5%; }
+      * .section2 .container-full .row .sol2 {
+        width: 100%;
+        height: 70vh; }
+        * .section2 .container-full .row .sol2 .sol2-info {
+          box-shadow: 5px 5px 25px gray;
+          height: 100%;
+          position: relative;
+          padding: 10% 5%; }
+        * .section2 .container-full .row .sol2 .sol2-img {
+          position: relative;
+          width: 50;
+          height: 100%;
+          background-image: url("../assets/img2.jpg");
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          box-shadow: 5px 5px 25px gray; }
+      * .section2 .container-full .row .subtitulo {
+        font-size: 2.5em;
+        font-weight: 400;
+        line-height: 90%;
+        margin-bottom: 2%; }
+      * .section2 .container-full .row .divider {
+        margin-bottom: 5%; }
+      * .section2 .container-full .row .sol3 {
+        width: 100%;
+        height: 70vh; }
+        * .section2 .container-full .row .sol3 .sol3-info {
+          box-shadow: 5px 5px 25px gray;
+          height: 100%;
+          position: relative;
+          padding: 10% 5%; }
+        * .section2 .container-full .row .sol3 .sol3-img {
+          position: relative;
+          width: 50;
+          height: 100%;
+          background-image: url("../assets/img3.jpg");
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          box-shadow: 5px 5px 25px gray; }
+      * .section2 .container-full .row .subtitulo {
+        font-size: 2.5em;
+        font-weight: 400;
+        line-height: 90%;
+        margin-bottom: 2%; }
+      * .section2 .container-full .row .divider {
+        margin-bottom: 5%; }
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,168 @@
+$titulo: 2em
+$subtitulo: 1.7em
+    
+    
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'rubik'
+
+
+    .section1
+        width: 100%
+        height: 100vh
+        position: relative
+        video
+            width: 100%
+            height: 100vh
+            position: absolute
+            object-fit: cover
+            z-index: 0
+        .nosotros
+            width: 80%
+            position: absolute
+            top: 45%
+            left: 50%
+            transform: translate(-50%,-50%)
+            color: white
+            text-align: center
+            h4
+                line-height: 140%
+                font-weight: 200
+        .contacto
+            position: absolute
+            top: 70%
+            left: 50%
+            transform: translate(-50%,-50%)
+            border: 1px solid white
+            color: white
+            padding: 10px 20px
+            background-color: transparent
+            cursor: pointer
+            transition: all 1s
+            overflow: hidden
+            
+            span
+                font-weight: 400
+                letter-spacing: 1.5px
+        .contacto:hover
+            color: black
+              
+                
+        .contacto::before            
+            content: ''
+            width: 100%
+            height: 100%
+            background-color: white
+            position: absolute
+            top: -100%
+            left: 0
+            border: 4px solid white
+            transition: 1s all
+            z-index: -1
+        .contacto:hover::before
+            top: 0% 
+            border: 1px solid white
+            
+        
+            
+
+
+
+    .section2
+        background-color: white
+        position: relative
+        .container-full
+            padding: 5% 0%
+            h4
+                text-align: center
+                padding: 0 0 7% 0                
+                font-size: $titulo                    
+            .row
+                .sol1
+                    width: 100%
+                    height: 70vh
+
+                    .sol1-info
+                        box-shadow: 5px 5px 25px gray
+                        height: 100%
+                        position: relative
+                        padding: 10% 5%
+                        z-index: 1
+                       
+                    .sol1-img
+                        position: relative
+                        width: 50
+                        height: 100%
+                        background-image: url('../assets/img11.png')
+                        background-position: center center
+                        background-repeat: no-repeat
+                        background-size: cover
+                        box-shadow: 5px 5px 25px gray
+                        transition: all 2s
+                    
+                       
+                .subtitulo
+                    font-size: 2.5em
+                    font-weight: 400
+                    line-height: 90%
+                    margin-bottom: 2%
+                .divider
+                    margin-bottom: 5%
+    
+
+            .row
+                .sol2
+                    width: 100%
+                    height: 70vh
+                    .sol2-info
+                        box-shadow: 5px 5px 25px gray
+                        height: 100%
+                        position: relative
+                        padding: 10% 5%
+                    .sol2-img
+                        position: relative
+                        width: 50
+                        height: 100%
+                        background-image: url('../assets/img2.jpg')
+                        background-position: center center
+                        background-repeat: no-repeat
+                        background-size: cover
+                        box-shadow: 5px 5px 25px gray
+                                               
+                .subtitulo
+                    font-size: 2.5em
+                    font-weight: 400
+                    line-height: 90%
+                    margin-bottom: 2%
+                .divider
+                    margin-bottom: 5%
+
+            
+            .row
+                .sol3
+                    width: 100%
+                    height: 70vh
+                    .sol3-info
+                        box-shadow: 5px 5px 25px gray
+                        height: 100%
+                        position: relative
+                        padding: 10% 5%
+                    .sol3-img
+                        position: relative
+                        width: 50
+                        height: 100%
+                        background-image: url('../assets/img3.jpg')
+                        background-position: center center
+                        background-repeat: no-repeat
+                        background-size: cover
+                        box-shadow: 5px 5px 25px gray
+                                                 
+                .subtitulo
+                    font-size: 2.5em
+                    font-weight: 400
+                    line-height: 90%
+                    margin-bottom: 2%
+                .divider
+                    margin-bottom: 5%
